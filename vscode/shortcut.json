@@ -1,0 +1,12 @@
+[
+	
+	{
+    	"key": "cmd+t",
+    	"command": "workbench.action.terminal.toggleTerminal"
+	},
+	
+	{
+    	"key": "cmd+n",
+    	"command": "explorer.newFile"
+	}
+]

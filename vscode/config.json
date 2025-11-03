@@ -1,0 +1,88 @@
+{
+	// === WORKBENCH & INTERFACE ===
+	"workbench.colorTheme": "Monokai",
+	"workbench.startupEditor": "none",
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "developer-icons",
+	"workbench.editor.enablePreview": false,
+	"workbench.tree.indent": 15,
+
+
+
+
+	// === EDITOR BEHAVIOR ===
+	"editor.lineHeight": 20,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.minimap.enabled": false,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.suggest.selectionMode": "never",
+
+
+
+	// === FILES & AUTO-SAVE ===
+	"files.autoSave": "onFocusChange",
+
+
+
+	// === SYNTAX HIGHLIGHTING ===
+	"editor.semanticHighlighting.enabled": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"entity.name.function",
+					"variable",
+					"variable.parameter",
+					"meta.function-call",
+					"support.function",
+					"support.variable",
+					"markup.underline",
+					"markup.underline.link"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "comment",
+				"settings": {
+					"foreground": "#7FD9FF",
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+	"editor.semanticTokenColorCustomizations": {
+		"enabled": false,
+		"rules": {
+			"*": {
+				"fontStyle": ""
+			}
+		}
+	},
+
+	
+
+	// === GITHUB COPILOT ===
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"github.copilot.nextEditSuggestions.enabled": false,
+
+	// === AMAZON Q ===
+	"amazonQ.suppressPrompts": {
+		"amazonQChatDisclaimer": true,
+		"amazonQChatPairProgramming": true
+	},
+	"amazonQ.telemetry": false,
+
+	// === CHAT & MISC ===
+	"chat.commandCenter.enabled": false
+}
