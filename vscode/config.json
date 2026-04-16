@@ -8,9 +8,6 @@
 	"workbench.editor.enablePreview": false,
 	"workbench.tree.indent": 15,
 
-
-
-
 	// === EDITOR BEHAVIOR ===
 	"editor.lineHeight": 20,
 	"editor.fontFamily": "JetBrains Mono",
@@ -21,14 +18,12 @@
 	"editor.inlineSuggest.showToolbar": "always",
 	"editor.suggest.selectionMode": "never",
 
-
-
 	// === FILES & AUTO-SAVE ===
 	"files.autoSave": "onFocusChange",
-
-
+	"files.trimTrailingWhitespace": true,
 
 	// === SYNTAX HIGHLIGHTING ===
+	"editor.renderWhitespace": "boundary",
 	"editor.semanticHighlighting.enabled": false,
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -63,26 +58,5 @@
 				"fontStyle": ""
 			}
 		}
-	},
-
-	
-
-	// === GITHUB COPILOT ===
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
-	},
-	"github.copilot.nextEditSuggestions.enabled": false,
-
-	// === AMAZON Q ===
-	"amazonQ.suppressPrompts": {
-		"amazonQChatDisclaimer": true,
-		"amazonQChatPairProgramming": true
-	},
-	"amazonQ.telemetry": false,
-
-	// === CHAT & MISC ===
-	"chat.commandCenter.enabled": false
+	}
 }
