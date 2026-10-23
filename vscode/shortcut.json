@@ -8,10 +8,5 @@
 	{
     	"key": "cmd+n",
     	"command": "explorer.newFile"
-	},
-
-	{
-      "key": "cmd+s",
-      "command": "workbench.action.toggleSidebarVisibility"
-  	}
+	}
 ]
